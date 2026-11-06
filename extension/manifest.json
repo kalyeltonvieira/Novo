@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Auditor IA - Cérebro da Transparência",
+  "version": "1.0.0",
+  "description": "Destaca automaticamente preços acima da média e CNPJs suspeitos em portais de transparência.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["overlay.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

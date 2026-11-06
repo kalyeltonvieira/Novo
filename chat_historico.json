@@ -1,0 +1,354 @@
+[
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Como posso ajudar na sua auditoria hoje? Se precisar analisar documentos, mapas, notas fiscais ou qualquer outra investigação, é só pedir."
+  },
+  {
+    "role": "Usuário",
+    "content": "mamutes?"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Erro: Falha na comunicação com a IA."
+  },
+  {
+    "role": "Usuário",
+    "content": "Poi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Tudo bem? Como posso ajudar na sua auditoria hoje? Se precisar analisar documentos, verificar sanções, mapear conexões ou qualquer outra investigação, é só me dizer qual é o próximo passo."
+  },
+  {
+    "role": "Usuário",
+    "content": "api?"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Entendi sua pergunta sobre \"API\". Você está se referindo a uma interface de programação para acessar este sistema de auditoria programaticamente? No momento, não disponibilizamos uma API pública para uso externo. \n\nMas posso ajudá-lo diretamente aqui no chat! Basta me passar os dados ou documentos que deseja investigar (planilhas, PDFs, URLs, extratos, etc.) e aciono os especialistas apropriados para realizar a auditoria.\n\nSe precisar de algo mais específico, como integração ou automação, me diga qual é o seu objetivo que tentaremos resolver juntos."
+  },
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Tudo bem? Estou aqui para ajudar na sua auditoria. Se tiver documentos, links, planilhas ou alguma investigação específica para realizar, é só me falar que aciono os especialistas certos. Como posso te ajudar hoje?"
+  },
+  {
+    "role": "Usuário",
+    "content": "ook"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Fico feliz em saber que está por aqui. 😊\n\nSe precisar de algo mais concreto para investigar — um documento, um CNPJ suspeito, uma planilha de folha de pagamento, um diário oficial ou qualquer outra pista — é só falar. Estou pronto para acionar os especialistas e montar o raciocínio da auditoria.\n\nComo posso te ajudar hoje?"
+  },
+  {
+    "role": "Usuário",
+    "content": "etst"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Erro: Falha na comunicação com a IA."
+  },
+  {
+    "role": "Usuário",
+    "content": "Pergunte qualquer coisa sobre contratos, despesas ou licitações..."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Obrigado pelo incentivo. 😊\n\nComo seu **Supervisor de Auditoria**, posso investigar diversos cenários. Para começarmos, você tem algum material ou suspeita em mente? Por exemplo:\n\n- **Contratos**: Um contrato específico (número, órgão, empresa) para analisar cláusulas, prazos e valores?\n- **Despesas**: Uma nota fiscal, extrato bancário ou planilha de pagamentos suspeita?\n- **Licitações**: Um edital publicado em Diário Oficial que você queira que eu vasculhe?\n- **Empresas/CNPJs**: Algum fornecedor que pareça “laranja” ou com indícios de conluio?\n- **Folha de pagamento**: Suspeita de supersalários ou acúmulo ilegal de cargos?\n\nSe preferir, posso simplesmente **navegar** por um portal de transparência que você indicar, ou **gerar um grafo societário** a partir de um CNPJ que você me passar.\n\nO que acha? Me dê uma direção — mesmo que seja um teste — que eu aciono os especialistas certos e começamos a auditoria. 🕵️‍♂️"
+  },
+  {
+    "role": "Usuário",
+    "content": "bora bill"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "E aí, Bill! Vamos nessa então. 🕵️‍♂️\n\nPara eu acionar os especialistas certos, preciso de um ponto de partida. Me diga:\n\n- **Um CNPJ ou nome de empresa** suspeita para eu gerar o grafo societário e ver conexões.\n- **Um link de portal da transparência** ou diário oficial para eu navegar e extrair contratos.\n- **Uma planilha ou nota fiscal** (anexe aqui) para análise de supersalários ou superfaturamento.\n- **Ou apenas me conte o que você desconfia**: fraude em licitação, laranjas, smurfing financeiro, acúmulo de cargos…\n\nQualquer pista serve. O que temos em mãos?"
+  },
+  {
+    "role": "Usuário",
+    "content": "investigue http://168.232.80.86:5656/transparencia/?AcessoIndividual=lnkDespesasPor_Exigibilidade"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Erro: Falha na comunicação com a IA."
+  },
+  {
+    "role": "Usuário",
+    "content": "its"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "**Relatório de Auditoria – Análise Preliminar**\n\n**Órgão auditado:** Prefeitura Municipal de Ourilândia do Norte (PA) e seus fundos municipais.  \n**Fonte consultada:** Portal da Transparência local (http://168.232.80.86:5656/transparencia/?AcessoIndividual=lnkDespesasPor_Exigibilidade).  \n**Dados extraídos:** Listagem de órgãos (Câmara Municipal, FUNDEB, FHIS, Fundos de Assistência Social, Educação, Meio Ambiente, Saúde, Criança/Adolescente, Idoso) e anos de 2014 a 2027. **Não foram obtidos valores, credores, números de empenho ou qualquer informação financeira detalhada.**\n\n**Conclusão do Auditor:**\n\n1. **Falha na extração:** O portal exibiu apenas cabeçalhos de órgãos e anos, sem dados de despesas individualizadas. A navegação automatizada não conseguiu acessar registros mais profundos (ex.: empenhos, liquidações, pagamentos).\n2. **Indícios de risco:** A existência de múltiplos fundos municipais (saúde, educação, assistência social etc.) é comum, mas a ausência de valores acessíveis compromete qualquer análise de superfaturamento, direcionamento ou irregularidade.\n3. **Limitação técnica:** O portal pode exigir interação humana (filtros, cliques em links específicos) ou utilizar tecnologias não capturadas pelo agente navegador.\n\n**Próximo passo recomendado:**\n- Solicitar ao usuário que **tente acessar manualmente o mesmo link** e verifique se há dados detalhados (ex.: clicar em “Despesas por Credor” ou “Empenhos”).\n- Alternativamente, fornecer **um CNPJ de fornecedor** ou **número de contrato/empenho** para busca direta.\n- Sugerir consulta ao **Diário Oficial do Município** ou ao **Tribunal de Contas do Estado do Pará** para cruzar informações.\n\n**Status:** Sem elementos para apontar irregularidade concreta. Recomenda-se nova tentativa com dados mais específicos."
+  },
+  {
+    "role": "Usuário",
+    "content": "Pergunte qualquer coisa sobre contratos, despesas ou licitações...https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "## Análise dos resultados\n\nO agente **Navegador** visitou o endereço `https://ourilandia.pa.gov.br/portal-da-transparencia/`, mas **não conseguiu extrair nenhum dado de licitação, contrato ou despesa**. O retorno foi apenas um conjunto de cookies técnicos (GDPR) – isso indica que:\n\n- O portal provavelmente carrega dinamicamente (JavaScript pesado, Single Page Application) ou exige interação (cliques em menus, seleção de filtros) que o agente automatizado não executou.\n- A página inicial pode ser apenas um \"portal de entrada\", com links para sistemas externos ou telas que só são renderizadas após ação do usuário.\n\n**Conclusão**: não foi possível obter informações financeiras ou licitatórias concretas deste segundo link até o momento.\n\n---\n\n## Próximos passos sugeridos\n\nPara avançarmos na auditoria, você pode me ajudar com **pelo menos uma** das seguintes opções:\n\n1. **Clique manualmente** no link da transparência e me passe uma **URL mais específica**, por exemplo:\n   - `https://ourilandia.pa.gov.br/.../licitacoes`\n   - `https://ourilandia.pa.gov.br/.../despesas-por-credor`\n   - Um link direto para um **edital** ou **extrato de contrato** em PDF.\n\n2. **Forneça um CNPJ de fornecedor/empresa** que atue com a prefeitura – posso usar o **GrafoSocietario** para mapear conexões ou o **SanctionAuditor** para checar listas negras.\n\n3. **Compartilhe um arquivo** (planilha de pagamento, nota fiscal, diário oficial em PDF) – aí aciono **PayrollAuditor**, **InvoiceParser** ou **GazetteAuditor** para extrair dados reais.\n\n4. **Diga qual tipo de fraude você suspeita** (superfaturamento, laranjas, acúmulo de cargos) e, se tiver qualquer documento ou link, me passe.\n\nAtualmente, sem dados de entrada, não é possível gerar laudo, grafo ou timeline. O que temos em mãos?"
+  },
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "[Modo Offline] IA não disponível no momento. Verifique as dependências e chaves de API."
+  },
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "[Modo Offline] IA não disponível no momento. Verifique as dependências e chaves de API."
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Ocorreu um erro ao conectar com o serviço de IA: cannot import name 'AgenteRelatorio' from 'core.agentes.especialistas' (D:\\Novo\\core\\agentes\\especialistas.py)"
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Ocorreu um erro ao conectar com o serviço de IA: expected string or bytes-like object"
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": ""
+  },
+  {
+    "role": "Usuário",
+    "content": "ta, mas oq descobriu?"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": ""
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Verifique se a empresa CNPJ 12.345.678/0001-90 possui irregularidades, fraudes ou sanções cadastradas."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "O **SanctionAuditor** não conseguiu processar a consulta porque ele depende de um arquivo/documento anexado contendo os CNPJs para realizar a verificação em sua base interna. Apenas o número digitado no chat não é suficiente para ele.\n\n**Próximos passos possíveis:**\n\n1. **Anexe um documento** (PDF, CSV, XLSX) que contenha o CNPJ `12.345.678/0001-90` (sozinho ou em uma lista). Posso então reenviá-lo ao SanctionAuditor para verificação de sanções, inidoneidade e listas negras.\n\n2. **Autorize uma consulta direta pela internet** – Posso usar o agente **Navegador** para acessar o **Portal da Transparência** (governamental) ou o **Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)** e verificar manualmente se esse CNPJ consta em alguma lista de sanções. Basta me confirmar se posso navegar nesses sites públicos.\n\nQual caminho prefere?"
+  },
+  {
+    "role": "Usuário",
+    "content": "Verifique se a empresa CNPJ 12.345.678/0001-90 possui irregularidades, fraudes ou sanções cadastradas. Use navegação na internet se necessário."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "## Análise dos Resultados\n\nApós consultar o **Portal da Transparência** com o CNPJ 12.345.678/0001-90, obtive o seguinte cenário:\n\n### 1. Retorno do SanctionAuditor\n- O agente especializado em sanções não encontrou nenhum registro no banco de dados interno. Ele solicita que um documento com CNPJs seja anexado para funcionar corretamente.\n\n### 2. Retorno do Navegador (acesso ao Portal da Transparência)\n- A página oficial foi carregada, mas **houve um erro no servidor** ao tentar buscar especificamente por esse CNPJ. O portal exibe a mensagem: *\"Aconteceu um erro no nosso servidor. Tente novamente.\"*\n- Isso impede a verificação direta da existência de sanções (CEIS, CNEP, CEPIM, CEAF) para essa empresa.\n\n## Conclusão\n**Não foi possível confirmar nem descartar irregularidades, fraudes ou sanções** para o CNPJ 12.345.678/0001-90 por meio das fontes consultadas, devido a:\n- Limitação técnica do SanctionAuditor (necessita de documento anexado).\n- Erro no servidor do Portal da Transparência para a consulta específica.\n\n## Próximos Passos Sugeridos\n1. **Tentar novamente** a consulta no Portal da Transparência em outro momento – o erro pode ser temporário.\n2. **Fornecer um documento** (planilha, PDF, lista) contendo o CNPJ para que o SanctionAuditor possa processá-lo corretamente.\n3. **Consultar outras bases**, como:\n   - [Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS)](https://www.portaltransparencia.gov.br/sancoes/ceis)\n   - [Cadastro Nacional de Empresas Punidas (CNEP)](https://www.portaltransparencia.gov.br/sancoes/cnep)\n   - Tribunal de Contas da União (TCU) – lista de inidôneos.\n   - Sites estaduais/municipais de transparência.\n4. **Validar o CNPJ** – verificar se ele é ativo e pertence a uma empresa real (Receita Federal).\n\nDeseja que eu execute algum desses passos, ou você pode anexar um arquivo com o CNPJ para que o SanctionAuditor funcione?"
+  },
+  {
+    "role": "Usuário",
+    "content": "Verifique se a empresa CNPJ 12.345.678/0001-90 tem irregularidades, fraudes ou sancoes. Use navegacao na internet se necessario."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Com base nas tentativas realizadas, não foi possível verificar sanções ou irregularidades para o CNPJ **12.345.678/0001-90**:\n\n1. **SanctionAuditor** – não encontrou o CNPJ em sua base interna e solicitou o anexo de um documento com CNPJs para consulta.\n2. **Navegador** – ao tentar acessar o Portal da Transparência (https://portaldatransparencia.gov.br/sancoes?cnpj=12345678000190), o site exigiu a resolução de um CAPTCHA e bloqueou a extração automática.\n\n**Próximo passo sugerido:**\n\n- Caso você tenha um arquivo (PDF, CSV, etc.) com lista de CNPJs ou dados de sanções, **anexe-o aqui** para que eu possa processá-lo com os agentes especializados.\n- Você também pode tentar **acessar manualmente** o Portal da Transparência ou o site do TCU com esse CNPJ e me enviar o print ou texto extraído – assim poderei analisar.\n- Se desejar, posso tentar buscar em **outras fontes públicas** (ex.: Receita Federal via API aberta) para obter ao menos a situação cadastral da empresa. Deseja que eu tente?\n\nAguardando sua orientação para continuar a investigação."
+  },
+  {
+    "role": "Usuário",
+    "content": ""
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Sou o Supervisor, seu auditor-chefe inteligente. Notei que sua mensagem está vazia — não recebi uma pergunta ou solicitação.\n\nPor favor, me diga o que você precisa investigar. Posso ajudar com:\n- Análise de portais de transparência (envie URLs)\n- Verificação de sanções de empresas (CNPJs)\n- Mapeamento de relações societárias\n- Leitura de extratos bancários, notas fiscais, diários oficiais\n- Análise de folha de pagamento (planilhas)\n- Geração de laudos periciais em PDF\n\n**Como posso começar?**"
+  },
+  {
+    "role": "Usuário",
+    "content": ""
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Realize uma auditoria completa na última licitação cadastrada para verificar se há sobrepreço ou indícios de direcionamento."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Realize uma auditoria completa na última licitação cadastrada para verificar se há sobrepreço ou indícios de direcionamento."
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Para realizar uma auditoria completa na última licitação cadastrada, preciso de mais informações, pois não foi fornecida uma URL ou referência específica.\n\nPor favor, informe:\n\n1. **Qual portal de transparência ou sistema de licitações devo consultar?** (Ex.: PNCP, portal da prefeitura de uma cidade, site do governo estadual, etc.)\n2. **Se possível, cole a URL direta da página que lista as licitações** ou do extrato da última licitação publicada.\n\nAssim que você me fornecer esses dados, poderei:\n- Extrair os dados da licitação (objeto, valor, modalidade, participantes, etc.).\n- Verificar sanções dos fornecedores envolvidos.\n- Analisar sobrepreço comparando com valores de mercado ou outras fontes.\n- Investigar indícios de direcionamento (conexões societárias, endereços coincidentes).\n- Gerar um relatório final com os achados.\n\nAguardo sua resposta com o endereço ou o nome do órgão/portal."
+  },
+  {
+    "role": "Usuário",
+    "content": " Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Não foi possível extrair um relatório detalhado. Tente reformular a pergunta ou verificar se o portal exige autenticação."
+  },
+  {
+    "role": "Usuário",
+    "content": ""
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Percebi que sua mensagem não continha uma pergunta específica ou dados para análise. Como Supervisor de Auditoria, estou aqui para ajudar em investigações de fraudes, análise de portais de transparência, verificação de sanções, mapas de conexões e muito mais.\n\nPor favor, informe o que você gostaria de investigar. Por exemplo:\n\n- Uma URL de portal da transparência para extrair licitações/contratos\n- Um CNPJ para verificar situação cadastral e sanções\n- Um arquivo (PDF, planilha) para análise de folha de pagamento ou notas fiscais\n- Um pedido para gerar mapa de conexões societárias ou de endereços\n- Ou simplesmente descreva o caso que deseja auditar\n\nEstou pronto para acionar os especialistas necessários assim que você definir o objetivo!"
+  },
+  {
+    "role": "Usuário",
+    "content": ""
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Parece que você não fez nenhuma pergunta ainda. Como Supervisor de Auditoria, estou aqui para ajudar!\n\n**Como posso auxiliá-lo hoje?** Aqui estão alguns exemplos do que posso fazer:\n\n- 🔍 **Analisar um portal de transparência** – Me envie uma URL (ex: site da prefeitura, governo estadual, etc.) e vou extrair licitações, contratos e despesas.\n- 📄 **Examinar PDFs/planilhas** – Tenho especialistas para ler diários oficiais, notas fiscais, folhas de pagamento e extratos bancários.\n- 🕵️ **Verificar sanções** – Posso consultar listas negras do governo para saber se empresas estão aptas a licitar.\n- 🌐 **Mapear conexões** – Gero grafos interativos de relações entre empresas, sócios e contratos.\n- 📊 **Gerar laudo pericial** – Posso compilar todas as evidências em um PDF com formato oficial.\n\n**Basta me dizer o que você precisa investigar!**"
+  },
+  {
+    "role": "Usuário",
+    "content": ""
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Parece que você iniciou uma nova conversa, mas não enviou uma pergunta específica ainda. Como posso ajudá-lo hoje? Por favor, informe o que deseja investigar ou analisar:\n\n- Um portal de transparência (URL)?\n- Empresas/CNPJs suspeitos?\n- Contratos públicos, licitações ou despesas?\n- Análise de extratos bancários ou notas fiscais?\n- Folha de pagamento?\n- Sanções ou teias societárias?\n- Um diário oficial em PDF?\n- Ou deseja gerar um laudo pericial?\n\nFique à vontade para detalhar sua solicitação!"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Sou o **Supervisor**, seu auditor chefe inteligente. Estou aqui para ajudar em investigações de fraudes, análise de contratos, verificação de sanções, cruzamento de dados e muito mais.\n\nComo posso te auxiliar hoje? Se tiver uma URL de portal da transparência, um arquivo (PDF, planilha), ou quiser investigar alguma empresa ou contrato, é só me falar."
+  },
+  {
+    "role": "Usuário",
+    "content": "Olá"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Não foi possível extrair um relatório detalhado. Tente reformular a pergunta ou verificar se o portal exige autenticação."
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Ocorreu um erro ao conectar com o serviço de IA: 'charmap' codec can't encode character '\\U0001f504' in position 0: character maps to <undefined>"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Ocorreu um erro ao conectar com o serviço de IA: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "{\n  \"agente\": \"CrawlerProfundo\",\n  \"tarefa\": \"Realizar varredura completa no portal de transparência de Ourilândia do Norte: https://ourilandia.pa.gov.br/portal-da-transparencia/. Extrair todas as licitações, contratos, despesas, fornecedores e PDFs disponíveis. Navegar por todos os menus e subpáginas, inclusive paginação automática. Retornar lista completa de empresas/CNPJs encontrados.\"\n}"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "❌ **Falha na extração de dados do portal.**\n\nO agente Navegador encontrou **20 erros** ao tentar processar o portal `https://ourilandia.pa.gov.br/portal-da-transparencia/`. Todos os erros indicam um problema técnico interno:\n\n> **`name 'BeautifulSoup' is not defined`**\n\nIsso significa que o código de extração (scraping) não conseguiu carregar a biblioteca `BeautifulSoup`, essencial para interpretar o HTML da página. **Nenhum dado** (licitações, contratos, empresas, etc.) pôde ser extraído.\n\n### O que aconteceu?\n\n- **0 links visitados com sucesso** – o crawler sequer conseguiu processar a primeira página.\n- A causa provável é um ambiente de execução incompleto ou permissão de instalação de pacotes ausente.\n\n### Recomendações para prosseguir:\n\n1. **Tentar novamente** – posso re-executar o Navegador no mesmo URL, caso o problema seja intermitente.\n2. **Acessar manualmente** – sugiro abrir o portal diretamente pelo navegador e me enviar prints ou textos copiados das seções que deseja analisar (ex.: lista de licitações, contratos ou fornecedores).\n3. **Usar outro portal** – se houver um endereço alternativo ou espelho do portal da transparência, posso tentar acessá-lo.\n\nDeseja que eu tente novamente a extração ou prefere enviar dados de outra forma?"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "⚠️ Falha na comunicação com a IA (InternalServerError): Error code: 529 - {'message': 'Service temporarily overloaded', 'type': 'Overloaded', 'code': 529}. Verifique sua conexão e a validade da API key no .env."
+  },
+  {
+    "role": "Usuário",
+    "content": "oi"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Olá! Sou o **Supervisor**, seu auditor-chefe inteligente. Estou aqui para ajudar em investigações de fraudes, análise de contratos, cruzamento de dados governamentais e muito mais.\n\nPosso acionar especialistas para:\n- Navegar em portais de transparência\n- Baixar e processar PDFs (editais, contratos, notas fiscais)\n- Verificar sanções de empresas (CEIS, CNEP, TCU)\n- Gerar grafos de conexões societárias\n- Mapear endereços suspeitos\n- Analisar folhas de pagamento e supersalários\n- Consultar CNPJs na Receita Federal\n- E emitir laudos periciais em PDF\n\n**Em que posso ajudar hoje?** Se tiver um link, um documento ou uma suspeita para investigar, é só falar!"
+  },
+  {
+    "role": "Usuário",
+    "content": "Investigue o portal https://ourilandia.pa.gov.br/portal-da-transparencia/"
+  },
+  {
+    "role": "IA Analisadora",
+    "content": "Não foi possível extrair um relatório detalhado. Tente reformular a pergunta ou verificar se o portal exige autenticação."
+  }
+]

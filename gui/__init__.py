@@ -1,0 +1,1 @@
+"""Módulo GUI - Interface Gráfica Moderna com CustomTkinter"""

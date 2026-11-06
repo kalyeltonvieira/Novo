@@ -1,0 +1,105 @@
+# Core NLP & ML
+spacy>=3.7.0
+thinc>=8.2.0
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+
+# OCR
+pytesseract>=0.3.10
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Graph Database (local)
+networkx>=3.2.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# GUI
+customtkinter>=5.2.0
+CTkMessagebox>=2.5
+CTkTable>=1.0.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+validators>=0.22.0
+python-dateutil>=2.8.0
+chardet>=5.0.0
+
+# API Backend
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+
+# Reporting
+jinja2>=3.1.0
+weasyprint>=60.0
+markdown>=3.5.0
+
+# PDF Image extraction
+pdf2image>=1.16.0
+
+# DOCX
+python-docx>=1.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.5.1
+pre-commit>=3.3.0
+
+# AI Providers (LLM APIs)
+openai>=1.12.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+cohere>=5.5.0
+
+# Additional AI Providers
+openrouter>=1.0.0
+groq>=0.5.0
+together>=1.2.0
+mistralai>=0.4.0
+ollama>=0.3.0
+
+# Web Browser Automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Cache Distribuído (opcional)
+redis>=5.0.0
+
+# Autenticação e Segurança (JWT)
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+
+# Persistência de Dados (ORM & Vector DB)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+chromadb>=0.4.0
+
+# Processamento Assíncrono / Workers
+celery>=5.3.0
+

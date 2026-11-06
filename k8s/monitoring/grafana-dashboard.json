@@ -1,0 +1,20 @@
+{
+  "title": "Cérebro da Transparência - Observabilidade K8s",
+  "panels": [
+    {
+      "title": "Total de Anomalias Detectadas",
+      "type": "stat",
+      "targets": [{ "expr": "sum(rate(anomalias_detectadas_total[5m]))" }]
+    },
+    {
+      "title": "Requisições por Agente Especialista",
+      "type": "timeseries",
+      "targets": [{ "expr": "sum by (agente) (rate(agente_execucoes_total[5m]))" }]
+    },
+    {
+      "title": "Latência dos Endpoints FastAPI (p95)",
+      "type": "timeseries",
+      "targets": [{ "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))" }]
+    }
+  ]
+}

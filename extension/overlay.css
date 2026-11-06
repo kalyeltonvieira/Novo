@@ -1,0 +1,14 @@
+.auditor-ia-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(15, 23, 42, 0.95);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  padding: 12px 18px;
+  border-radius: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+  backdrop-filter: blur(8px);
+}

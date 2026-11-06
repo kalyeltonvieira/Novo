@@ -1,0 +1,2 @@
+AI_AVAILABLE=True, NAVEGADOR_AVAILABLE=True
+ai_manager=True, navegador=True

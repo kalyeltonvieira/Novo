@@ -1,0 +1,95 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ia-analisadora-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./.env:/app/.env:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATA_DIR=/app/data
+      - REPORTS_DIR=/app/data/reports
+      - DATABASE_URL=postgresql://transparencia:transparencia_pwd@postgres:5432/transparencia_db
+      - REDIS_URL=redis://redis:6379/0
+    command: ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    restart: unless-stopped
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - ia-analisadora-network
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ia-analisadora-worker
+    command: ["celery", "-A", "workers.celery_app.celery_app", "worker", "--loglevel=info"]
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=postgresql://transparencia:transparencia_pwd@postgres:5432/transparencia_db
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - ia-analisadora-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: ia-analisadora-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=transparencia
+      - POSTGRES_PASSWORD=transparencia_pwd
+      - POSTGRES_DB=transparencia_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ia-analisadora-network
+
+  redis:
+    image: redis:alpine
+    container_name: ia-analisadora-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - ia-analisadora-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ia-analisadora-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - ia-analisadora-network
+
+volumes:
+  data:
+  logs:
+  redis_data:
+  postgres_data:
+
+networks:
+  ia-analisadora-network:
+    driver: bridge

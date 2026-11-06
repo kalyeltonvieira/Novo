@@ -1,0 +1,10 @@
+{
+  "_comment": "Preferências não-sensíveis do usuário. CHAVES DE API NÃO VÃO AQUI — coloque no .env (veja .env.example).",
+
+  "config_geral_idioma": "pt-BR",
+  "config_geral_tema": "Escuro",
+  "config_geral_notificacoes": 1,
+
+  "config_ai_provider": "nvidia",
+  "config_ai_model": "deepseek-ai/deepseek-v4-flash"
+}
